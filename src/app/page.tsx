@@ -9,27 +9,13 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div style={{ display: "flex", gap: "40px" }}>
-        <Link href="/products" prefetch={false}>
-          Products
-        </Link>
-        <Link href="/products/1" prefetch={false}>
-          Product 1
-        </Link>
-        <Link href="/products/2" prefetch={false}>
-          Product 2
-        </Link>
-        <Link href="/products/3" prefetch={false}>
-          Product 3
-        </Link>
-        <Link href="/products/4" prefetch={false}>
-          Product 4
-        </Link>
-        <Link href="/products/5" prefetch={false}>
-          Product 5
-        </Link>
-        <Link href="/products/6" prefetch={false}>
-          Product 6
-        </Link>
+        <Link href="/products">Products</Link>
+        <Link href="/products/1">Product 1</Link>
+        <Link href="/products/2">Product 2</Link>
+        <Link href="/products/3">Product 3</Link>
+        <Link href="/products/4">Product 4</Link>
+        <Link href="/products/5">Product 5</Link>
+        <Link href="/products/6">Product 6</Link>
       </div>
 
       <div className={styles.center}>
