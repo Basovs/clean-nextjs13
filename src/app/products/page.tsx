@@ -10,9 +10,7 @@ const fetchProducts = async () => {
   // Making fetch longer to see the loading component for longer time
   await new Promise((resolve) => setTimeout(() => resolve(null), 1000))
 
-  const res = await fetch(`https://dummyjson.com/products`, {
-    cache: "no-store",
-  })
+  const res = await fetch(`https://dummyjson.com/products`)
   return await res.json()
 }
 
