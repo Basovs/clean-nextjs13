@@ -1,3 +1,7 @@
 export default function LoadingProductsPage() {
-  return <h1>Loading Products...</h1>
+  return (
+    <div className="wrapper-center">
+      <h1 style={{ color: "red" }}>Loading Products...</h1>
+    </div>
+  )
 }
